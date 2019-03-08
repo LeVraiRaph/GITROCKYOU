@@ -1,0 +1,597 @@
+body {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+a:visited {
+    color: #7c7c7d;
+}
+
+a {
+    color: #7c7c7d;
+}
+
+
+@media screen and (min-width:1300px) {
+
+body {
+    background-color: rgb(201, 210, 224);
+    color: white;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-size: 2000px;
+    margin: 0%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+    background-size: 2000px;
+    margin: 0%;
+}
+
+.h2-box {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: rgba(22, 25, 29, 0.37);
+    margin-bottom: 100px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    z-index: 50;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3 {
+    color: black;
+}
+
+h4 {
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+}
+
+h5 {
+    color: rgb(255, 255, 255);
+}
+
+h6 {
+    color: black;
+}
+
+#actu-titre {
+    position: absolute;
+}
+
+#gros-logo {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    z-index: 50;
+}
+
+#logo {
+    width: 120px;
+    height: auto;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.nav-link {
+    font-size: 1.5em;
+    margin: 10px;
+    font-weight: bold;
+}
+
+#concerts-a-venir {
+    background-image: url('../img/bass.jpg');
+    background-size: 100%;
+}
+
+#concerts-passes {
+    background-image: linear-gradient(to right, #0f2027, #203a43, #2c5354);
+}
+
+#groupes {
+    background-image: url('../img/free2.jpg');
+    background-size: 100%;
+}
+
+#equipe {
+    background-image: linear-gradient(to right, #0f2027, #203a43, #2c5354);
+}
+
+#contact {
+    background-image: url('../img/free5.jpg');
+    background-size: 100%;
+}
+
+#legals {
+    background-image: url('../img/free12.jpg');
+    background-size: 100%;
+}
+
+.group-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+nav {
+    position: sticky;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    display: flex;
+    z-index: 99;
+}
+
+#carouselExampleIndicators {
+    width: 100%;
+    max-height: 90vh;
+    height: 90vh;
+    min-height: 90vh;
+    overflow: hidden;
+    z-index: 1;
+    margin: 0%;
+}
+
+.group-image {
+    width: 100%;
+    height: auto;
+    margin: 10px;
+}
+
+.group-article {
+    margin: 25px;
+    width: 20%;
+}
+
+#group-galerie {
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+}
+
+#reseaux-sociaux {
+    width: 15%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.btn {
+    width: 100px;
+    height: auto;
+}
+
+.rsimg {
+    width: 70px;
+    height: auto;
+}
+
+#membres {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.membre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.membre-photo {
+    width: 300px;
+    height: auto;
+    margin: 20px;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.membre-nom {
+    color: white;
+}
+
+#galeries-concerts-passes {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.concert-passe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 30%;
+    margin: 10px;
+}
+
+.galerie-photos {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.photo-concert {
+    width: 250px;
+    height: auto;
+    margin: 5px;
+}
+
+.titre-galerie {
+    color: white;
+}
+
+.group-titres {
+    color: white;
+    text-align: center;
+}
+
+.artistes-concerts-futurs {
+    color: white;
+}
+
+.vignette-concerts-futurs {
+    width: 400px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#galeries-concerts-futurs {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    width: 85%;
+}
+
+.concerts-futurs {
+    padding: 30px;
+    background-color: rgba(22, 25, 29, 0.568);
+}
+
+#autres-pages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    margin-left: 50px;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #f8f9fa;
+    /*background-image: linear-gradient(to right, #00061c, #203a43, #2c5354);*/
+}
+
+
+
+#footer-box {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+a:hover {
+    color: #181819;
+    text-decoration: none;
+}
+
+#copyright {
+    color: #7c7c7d;
+    font-size: 0.8em;
+}
+
+.map {
+    border-width: 20px;
+    border-style: solid;
+    border-color: black;
+}
+
+.noir {
+    color: black;
+}
+
+.imgmodal  {
+    width: 100%;
+    height: auto;
+}
+
+
+}
+
+
+
+
+
+@media screen and (max-width:1200px) {
+
+body {
+    margin: 0%;
+}
+
+nav {
+    position: sticky;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    z-index: 99;
+}
+
+ul {
+    margin: 15px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background-size: 2000px;
+    margin: 0%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+    background-size: 2000px;
+    margin: 0%;
+    padding: 20px;
+    background-image: linear-gradient(to right, rgb(243, 243, 243), rgb(255, 255, 255));
+}
+
+#gros-logo {
+    width: 80%;
+    height: auto;
+    position: absolute;
+    z-index: 50;
+}
+
+#logo {
+    display: none;
+}
+
+.group-image {
+    width: 150px;
+    height: auto;
+}
+
+.membre-photo {
+    width: 150px;
+    height: auto;
+    margin: 20px;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+}
+
+#carouselExampleIndicators {
+    display: none;
+}
+
+#reseaux-sociaux {
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.rsimg {
+    width: 50px;
+    height: auto;
+}
+
+#group-galerie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+
+.group-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 80%;
+}
+
+.group-image {
+    width: 100%;
+    height: auto;
+    margin: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+#footer-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+#autres-pages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+#copyright {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.h2-box {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    z-index: 50;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1em;
+    text-align: center;
+}
+
+h4 {
+    font-size: 0.8em;
+    text-align: center;
+}
+
+#concerts-a-venir {
+    background-image: linear-gradient(to right, rgb(243, 243, 243), rgb(255, 255, 255));
+}
+
+#concerts-passes {
+    background-image: linear-gradient(to right, rgb(224, 211, 211), rgb(155, 155, 155));
+}
+
+#groupes {
+    background-image: linear-gradient(to right, rgb(243, 243, 243), rgb(255, 255, 255));
+}
+
+#equipe {
+    background-image: linear-gradient(to right, rgb(219, 199, 199), rgb(156, 136, 136));
+}
+
+#contact {
+    background-image: linear-gradient(to right, rgb(243, 243, 243), rgb(255, 255, 255));
+}
+
+#legals {
+    background-image: linear-gradient(to right, rgb(219, 199, 199), rgb(156, 136, 136));
+}
+
+#galeries-concerts-passes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.concert-passe {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 25%;
+    margin: 10px;
+}
+
+.galerie-photos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.photo-concert {
+    width: 200px;
+    height: auto;
+    margin: 5px;
+}
+
+.vignette-concerts-futurs {
+    width: 200px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+}
